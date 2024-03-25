@@ -117,8 +117,15 @@ footer{
         margin: 0 0.5 rem;
     }
     /*Main Content*/
-    Main {
+    main {
         /*push main content down below larger header*/
         margin-top: 79px;
     }
+}
+/*Media query for laptops and larger (992px and above)*/
+@media  screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+    
 }
