@@ -76,7 +76,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -89,8 +89,18 @@ main{
 }
 
 /*Footer*/
-footer{
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 /*Media query: Tablets or lager (=/> 768px */
 @media screen and (min-width: 768px) {
