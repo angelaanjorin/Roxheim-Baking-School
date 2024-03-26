@@ -20,7 +20,8 @@ body{
 }
 /* Header*/
 header{
-    background-color: #ffffff;
+    background-color: #f1efef;
+    padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -61,7 +62,8 @@ nav {
     background-color: #ffffff;
     width: 100%;
     left: 0;
-    box-shadow:0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -81,7 +83,7 @@ nav {
 
 
 /*Main Content*/
-main{
+main {
     background-color: aquamarine;
     /* make main element take up surplus space to push down footer*/
     flex: 1 0 auto;
@@ -132,6 +134,8 @@ main{
         margin-top: 79px;
     }
 }
+
+
 /*Media query for laptops and larger (992px and above)*/
 @media  screen and (min-width: 992px) {
     #menu a:hover {
