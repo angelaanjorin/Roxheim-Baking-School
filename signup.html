@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Meta tags for search engines -->
     <meta name="description" content="Backing, children learn backing, school, cooking, cockery, Roxheim, Germany">
@@ -16,28 +17,50 @@
     <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
     <!-- Header -->
-    <header>
+    <header id="header-section">
         <a href="index.html">
-            <h1 id="logo">Roxheim Backing school</h1>
+            <h1 id="logo">Roxheim Bakery School</h1>
         </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+            <input type="checkbox" id="nav-toggle" name="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i>
+            </label> 
+            <nav>
+                <ul id="menu">
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="signup.html"class="active">Sign Up</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
+
     </header>
 
-    <!-- Main content -->
-    <main>Main content</main>
+    <!-- Form and Sign up section -->
+    <main><section id="signup"></section>
+        <div class="signup-from">
+            <h4>Sign up here and lets get baking!<i class="fa-solid fa-cake-candles"></i></h4>
+            <form action="assets\images\signup.webp" method="get" target="_blank" rel="noopener">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="full-name" class="input" placeholder="Full Name" required><br>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email-address" class="input" placeholder="Email Address"
+                    required><br>
+                <p>Age of Child</p>
+                <input type="radio" class="radio" id="6-8" name="childs-age" value="6-8" required>
+                <label for="6-8">6-8yrs</label>
+                <input type="radio" class="radio" id="8-10" name="childs-age" value="8-10">
+                <label for="8-10">8-10yrs</label>
+                <input type="radio" class="radio" id="10-12" name="childs-age" value="10-12">
+                <label for="10-12">10-12yrs</label><br>
+                <textarea name="enquiry" rows="40" cols="40" class="input" id= "textarea" placeholder="Type your enquiry here"
+                    required></textarea><br>
+                <button id="submit-button">Submit Enquiry</button>
+            </form>
+        </div>
+    </main>
 
 <!-- Footer -->
 <footer>

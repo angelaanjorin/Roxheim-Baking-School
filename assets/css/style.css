@@ -13,11 +13,6 @@ $russet: rgba(116, 61, 35, 1);
 $sinopia: rgba(212, 63, 23, 1);
 $raisin-black: rgba(31, 24, 31, 1);
 
---iterative-color: rgb(248, 79, 13);
---overlay-black: rgba(0, 0, 0, 0.7);
---fully-black: rgb(17, 17, 17);
---light-grey: rgb(224, 218, 218);
-
 /* CSS HEX */
 --beaver: #B58B6Eff;
 --blood-red: #710000ff;
@@ -25,10 +20,6 @@ $raisin-black: rgba(31, 24, 31, 1);
 --sinopia: #D43F17ff;
 --raisin-black: #1F181Fff;
 
-/*FONT COLOR*/
---text-white: rgb(250, 235, 215);
---text-grey: rgb(153, 150, 145);
---text-black: rgba(17, 17, 17);
 }
 
 /* Asterisk wildcard selector to override default styles set by the browser*/
@@ -55,17 +46,6 @@ body{
     color: inherit;
 }
 
-/*#header-section {
-    background-image: url(../images/redchristmasbaking.jpg);
-    background-position: center;
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 50vh;
-    width: 100%;  
-    display: flex;
-    justify-content: space-between; 
-    align-items: baseline;
-}*/
 
 #header-section {
     width: 100%;
@@ -82,12 +62,11 @@ h1{
     font-family:'Italianno', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
-    color: var(--text-white);
     padding: 1rem
 }
     
 #menu {
-font-size: 100%;
+font-size: 150%;
 letter-spacing: 1px;
 list-style-type: none;
 display: grid;
@@ -163,7 +142,7 @@ line-height: 1em;
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: var(--text-white);
+    color: #ffffff;
 }
 
 /*Media query: large or landscape phones (576px and up)*/
@@ -174,20 +153,30 @@ line-height: 1em;
     }
     
 }
-/*Media query: Tablets or lager (=/> 768px */
+/*Media query: Tablets or larger (=/> 768px */
 @media screen and (min-width: 768px) {
     /*Header*/
+   #header-section {
+    position: absolute;
+    height: 107px;
+   }
     nav {
         display: flex;
         position: relative;
         width: fit-content;
-        padding-right: 1rem;
+        padding: 1rem;
+        top: 0;
+        height: inherit;
     }
-    #menu {
+    #menu, li {
         display: flex;
     }
+
     #menu > li {
         padding-left: 1rem;
+        margin-bottom: 0;
+        text-align: center;
+        font-size: 100%;
     }
     .nav-toggle-label {
         display: none;
@@ -195,7 +184,6 @@ line-height: 1em;
     #logo {
         font-size: 280%;
         line-height: 75px;
-        margin: 0 0.5 rem;
     }
     /*Main Content*/
     main {
