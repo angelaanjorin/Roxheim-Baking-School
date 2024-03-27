@@ -25,13 +25,13 @@
         <a href="index.html">
             <h1 id="logo">Roxheim Bakery School</h1>
         </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i>
-            </label> 
-            <nav>
-                <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
-                <li><a href="signup.html"class="active">Sign Up</a></li>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="signup.html" class="active">Sign Up</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
@@ -39,12 +39,16 @@
     </header>
 
     <!-- Form and Sign up section -->
-    <main><section id="signup"></section>
-        <div class="signup-from">
-            <h4>Sign up here and lets get baking!<i class="fa-solid fa-cake-candles"></i></h4>
-            <form action="assets\images\signup.webp" method="get" target="_blank" rel="noopener">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="full-name" class="input" placeholder="Full Name" required><br>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="get"action="assets\images\signup.webp" target="_blank" rel="noopener">
+                <h2>Sign up here and lets get baking!<i class="fa-solid fa-cake-candles"></i></h2>
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <br>
                 <label for="email">Email Address</label>
                 <input type="email" id="email" name="email-address" class="input" placeholder="Email Address"
                     required><br>
@@ -55,30 +59,36 @@
                 <label for="8-10">8-10yrs</label>
                 <input type="radio" class="radio" id="10-12" name="childs-age" value="10-12">
                 <label for="10-12">10-12yrs</label><br>
-                <textarea name="enquiry" rows="40" cols="40" class="input" id= "textarea" placeholder="Type your enquiry here"
-                    required></textarea><br>
-                <button id="submit-button">Submit Enquiry</button>
+                <textarea name="enquiry" rows="40" cols="40" class="input" id="textarea"
+                    placeholder="Type your enquiry here" required></textarea><br>
+                <button id="submit-button">Submit</button>
             </form>
-        </div>
+       
+        </section>
     </main>
 
-<!-- Footer -->
-<footer>
-    <ul id="social-networks">
-        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a></li>
-        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-square-instagram"></i></a></li>
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-square-instagram"></i></a></li>
 
-    </ul>
-</footer>
+        </ul>
+    </footer>
 
-<!-- Font Awesome kit -->
-<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
