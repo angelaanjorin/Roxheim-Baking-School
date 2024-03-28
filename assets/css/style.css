@@ -143,6 +143,32 @@ main {
     min-height: 200px;
     padding-left: 10px;
 }
+/*middle Section of Home with intro and class schedule*/
+#middle {
+    background-color: #B58B6Eff;
+    height: 600px;
+    width: 100%;
+    margin: auto;
+}
+
+#intro {
+padding: 20px;
+display: block;
+}
+
+#intro p {
+margin: 20px 0;
+}
+
+#intro h3, #classes h3 {
+    font-family: #Roboto sans-serif;
+    margin: 7px;
+    letter-spacing: 2px;
+}
+
+#table {
+    margin: 7px;
+}
 /*Signup Section*/
 
 #signup {
