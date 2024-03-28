@@ -113,7 +113,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 
@@ -121,6 +121,8 @@ nav {
 main {
     /* make main element take up surplus space to push down footer*/
     flex: 1 0 auto;
+    /*Add margin at the top to prevent content from being covered by header*/
+    margin-top: 47px;
    /*Enable flex properties for child elements*/
    display: flex;
    flex-direction: column;
@@ -143,9 +145,8 @@ main {
     min-height: 200px;
     padding-left: 10px;
 }
-/*middle Section of Home with intro and class schedule*/
+/*middle Section of Home with intro*/
 #middle {
-    background-color: #B58B6Eff;
     height: 600px;
     width: 100%;
     margin: auto;
@@ -160,8 +161,8 @@ display: block;
 margin: 20px 0;
 }
 
-#intro h3, #classes h3 {
-    font-family: #Roboto sans-serif;
+#intro {
+    color: #463B24ff;
     margin: 7px;
     letter-spacing: 2px;
 }
@@ -181,10 +182,25 @@ margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
-#table {
-    margin: 7px;
+
+/*classes schedule*/
+#age-groups {
+    background: url("../images/smallkidscourses.webp") no-repeat center/cover;
+    /*takes care of responsiveness with all devices*/
+    display: flex;
+    flex-wrap: wrap;
+}
+#age-groups div {
+color: #ffffff;
+background-color: rgba(0, 0, 0, .6);
+padding: 15px;
+text-align: center;
+/*This will not wrap on screen < 400px wide*/
+flex-basis: 200px;
+flex-grow: 1;
+/*creats grid over background*/
+border: 2px soldi #ffffff
 }
 /*Signup Section*/
 
