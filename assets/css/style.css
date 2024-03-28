@@ -40,7 +40,9 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
+.hidden-heading {
+    display: none;
+}
 
 /* Header and logo*/
 #header-section a {
@@ -61,15 +63,14 @@ body {
 }
 
 h1 {
-    font-family: 'Italianno', sans-serif;
     text-transform: capitalize;
     letter-spacing: 1px;
 }
 
 #logo {
     list-style: none;
-    line-height: 52px;
-    padding-left: 0.5rem;
+    font-size: 180%;
+    padding: 1rem 0 0 0.5rem;
 }
 
 #menu {
@@ -185,6 +186,13 @@ margin: 20px 0;
 }
 
 /*classes schedule*/
+#classes >h2 {
+        color: #463B24ff;
+        margin: 7px;
+        letter-spacing: 2px;
+    }
+    
+
 #age-groups {
     background: url("../images/smallkidscourses.webp") no-repeat center/cover;
     /*takes care of responsiveness with all devices*/
@@ -200,7 +208,7 @@ text-align: center;
 flex-basis: 200px;
 flex-grow: 1;
 /*creats grid over background*/
-border: 2px soldi #ffffff
+border: 2px solid #ffffff
 }
 /*Signup Section*/
 
