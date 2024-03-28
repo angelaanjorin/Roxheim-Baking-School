@@ -41,29 +41,34 @@
     <!-- Form and Sign up section -->
     <main>
         <section id="signup">
-            <form id="signup-form" method="get"action="assets\images\signup.webp" target="_blank" rel="noopener">
-                <h2>Sign up here and lets get baking!<i class="fa-solid fa-cake-candles"></i></h2>
+            <form id="signup-form" method="get" action="assets\images\signup.webp" target="_blank" rel="noopener">
+                <h2 id="signup-logo"><i class="fa-solid fa-cake-candles"></i> Sign up here and let`s get baking!</h2>
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
                 <br>
                 <label for="last_name">Last Name</label>
                 <input type="text" name="last_name" id="last_name" class="text-input" required>
                 <br>
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email-address" class="input" placeholder="Email Address"
-                    required><br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <br>
                 <p>Age of Child</p>
-                <input type="radio" class="radio" id="6-8" name="childs-age" value="6-8" required>
-                <label for="6-8">6-8yrs</label>
-                <input type="radio" class="radio" id="8-10" name="childs-age" value="8-10">
-                <label for="8-10">8-10yrs</label>
-                <input type="radio" class="radio" id="10-12" name="childs-age" value="10-12">
-                <label for="10-12">10-12yrs</label><br>
-                <textarea name="enquiry" rows="40" cols="40" class="input" id="textarea"
-                    placeholder="Type your enquiry here" required></textarea><br>
-                <button id="submit-button">Submit</button>
+                <div class="radio-buttons">
+                    <div>
+                       <label for="6-8">6-8yrs</label> 
+                       <input type="radio" class="radio" id="6-8" name="childs-age" value="6-8" required>
+                    </div>
+                    <div>
+                        <label for="8-10">8-10yrs</label>
+                        <input type="radio" class="radio" id="8-10" name="childs-age" value="8-10">
+                    </div>
+                    <div>
+                        <label for="10-12">10-12yrs</label>
+                        <input type="radio" class="radio" id="10-12" name="childs-age" value="10-12">
+                    </div>
+                </div>
+                <button type="submit" class="join-button">Let`s bake</button>
             </form>
-       
         </section>
     </main>
 
