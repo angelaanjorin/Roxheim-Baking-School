@@ -52,12 +52,11 @@ body {
 
 #header-section {
     width: 100%;
-    position: fixed;
+    position: absolute;
     display: flex;
     justify-content: space-between;
-    /*align-items: top;*/
+    align-items: baseline;
     background-color: #B58B6Eff;
-    /*padding: 0 1rem;*/
     z-index: 100;
 }
 
@@ -68,13 +67,12 @@ h1 {
 }
 
 #logo {
-    list-style: none;
-    font-size: 180%;
-    padding: 1rem 0 0 0.5rem;
+    font-size: 100%;
+    padding: 1rem 0 1rem 0.5rem;
 }
 
 #menu {
-    font-size: 150%;
+    font-size: 120%;
     letter-spacing: 1px;
     list-style-type: none;
     display: grid;
@@ -113,8 +111,8 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
-    padding: 1rem;
+    font-size: 1.32rem;
+    padding-right: 0.5rem;
 }
 
 
@@ -131,7 +129,7 @@ main {
 
 /*Homepage Section*/
 #xmas {
-    height: 600px;
+    height: 450px;
     width: 100%;
     background: url("../images/christmasdeko.webp") no-repeat center center/cover;
     position: relative;
@@ -149,11 +147,6 @@ main {
     align-items: center;
 }
 /*middle Section of Home with intro*/
-#middle {
-    height: 600px;
-    width: 100%;
-    margin: auto;
-}
 
 #intro {
 padding: 20px;
@@ -164,36 +157,44 @@ display: block;
 margin: 20px 0;
 }
 
-#intro {
+#intro-section > h2 {
     color: #463B24ff;
-    margin: 7px;
+    padding: 20px;
     letter-spacing: 2px;
 }
 
+#intro-text {
+    color: #463B24ff;
+    margin: 7px;
+}
+
 #circle-cover-bg {
-    background: url("../images/pexels-cottonbro-studio-3992372.jpg") no-repeat top center / cover;
+    background: url("../images/girldecoratingmuffin.webp") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
-    margin-bottom: 20px;
     /* Makes the square image into a circle */
     border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 350px;
 }
 
 #intro-image {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 7px;
 }
 
 /*classes schedule*/
-#classes >h2 {
+#classes h2, #classes p {
         color: #463B24ff;
         margin: 7px;
         letter-spacing: 2px;
     }
     
+#age-groups p{
+    color: #ffffff;
+}
 
 #age-groups {
     background: url("../images/smallkidscourses.webp") no-repeat center/cover;
@@ -202,7 +203,6 @@ margin: 20px 0;
     flex-wrap: wrap;
 }
 #age-groups div {
-color: #ffffff;
 background-color: rgba(0, 0, 0, .6);
 padding: 15px;
 text-align: center;
@@ -215,7 +215,7 @@ border: 2px solid #ffffff
 /*Signup Section*/
 
 #signup {
-    background-image: url("../images/siebonhead.jpg");
+    background-image: url("../images/siebonhead.webp");
     background-size: cover;
     background-position: 75%;
     padding: 52px 10% 0 10%;
@@ -278,45 +278,42 @@ border: 2px solid #ffffff
 #social-networks {
     text-align: center;
     background-color: #B58B6Eff;
-    padding: 20px 0;
+    padding: 10px 0;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 110%;
     padding: 5%;
     color: #ffffff;
 }
 
- .copyright p {
-    text-align: center;
+ .copyright {
     background-color: #B58B6Eff;
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
-    justify-content: center;
-    list-style-type: none;
-    font: 10px;
-    margin-bottom: 40px;
-
+    justify-content: left;
+    font-size: 90%;
 }
-
 
 /*Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width: 576px) {
 
     /*Header*/
-    #header-section {
-        position: absolute;
-        height: 75px;
-    }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 150%;
     }
 
+    .nav-toggle-label {
+        font-size: 2rem;
+    }
+
+    #cover-text {
+        font-size: 130%;
+    }
     /*Gallery*/
     #photos {
         column-count: 2;
@@ -329,11 +326,18 @@ border: 2px solid #ffffff
 @media screen and (min-width: 768px) {
 
     /*Header*/
-    #header-section {
+   #header-section {
         position: absolute;
         height: 75px;
     }
 
+     #logo {
+        font-size: 180%;
+    }
+
+    #menu {
+        font-size: 150%;
+    }
     nav {
         display: flex;
         position: relative;
@@ -359,22 +363,39 @@ border: 2px solid #ffffff
         display: none;
     }
 
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-    }
-
     /*Main Content*/
     main {
         /*push main content down below larger header*/
         margin-top: 75px;
     }
 
-    /*Homepage section*/
+    /*Homepage xmas section*/
      #cover-text {
         width: 300px;
         right: 50px;
      }
+/*Intro section*/
+#intro {
+    display: flex;
+    flex-direction: row;
+}
+
+#intro > div {
+    flex: 1;
+}
+
+#intro-image {
+    order: 0;
+}
+#circle-cover-bg {
+    max-width: 400px;
+    max-height: 400px;*/
+}
+
+/*#intro > div,
+#intro-image > div {
+    width: 100%;
+}
     /*Signup Section*/
     #signup {
         background-position: center;
@@ -410,35 +431,9 @@ border: 2px solid #ffffff
         position: absolute;
         height: 90px;
     }
-
-     /*Homepage section*/
-     #cover-text {
-        right: 400px;
-     }
-    /*nav {
-        display: flex;
-        position: relative;
-        width: fit-content;
-        padding: 1rem;
-        top: 0;
-        height: inherit;
-    }
-    #menu, li {
-        display: flex;
-    }
-
-    #menu > li {
-        padding-left: 1rem;
-        margin-bottom: 0;
-        text-align: center;
-        font-size: 100%;
-    }
-    .nav-toggle-label {
-        display: none;
-    }*/
+    
     #logo {
-        font-size: 280%;
-        line-height: 90px;
+        font-size: 230%;
     }
 
     #menu a:hover {
@@ -446,15 +441,22 @@ border: 2px solid #ffffff
     }
 
     /*Main Content*/
-/*push main content down below larger header*/
-    /*main {
-        
-    margin-top: 75px;}
 
-
+ /*Homepage section*/
+ #cover-text {
+    right: 150px;
+ }
 
     /*Gallery*/
     #photos {
         column-count: 4;
     }
 }
+
+/*Media query for devices larger 1200 px and above)*/
+@media screen and (min-width: 1200px) {
+   #circle-cover-bg {
+        border-radius: 0%;
+        max-width: 600px;
+    }
+    }
