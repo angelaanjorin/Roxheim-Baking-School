@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color:#ffffff;
+    color:black
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -46,7 +46,7 @@ body {
 /* Header and logo*/
 #header-section a {
     text-decoration: none;
-    color: inherit;
+    color: #ffffff;
 }
 
 
@@ -113,6 +113,7 @@ nav {
 .nav-toggle-label {
     font-size: 1.32rem;
     padding-right: 0.5rem;
+    color: #ffffff;
 }
 
 
@@ -137,6 +138,7 @@ main {
 
 #cover-text {
     background-color: rgba(70, 59, 36, .6);
+    color: #ffffff;
     font-size: 130%;
     position: absolute;
     bottom: 30px; 
@@ -186,15 +188,14 @@ margin: 20px 0;
 }
 
 /*classes schedule*/
-#classes h2, #classes p {
-        color: #463B24ff;
+.click{
+    color: #463B24ff
+}
+#classes {
+    color: #ffffff;
         margin: 7px;
         letter-spacing: 2px;
     }
-    
-#age-groups p{
-    color: #ffffff;
-}
 
 #age-groups {
     background: url("../images/smallkidscourses.webp") no-repeat center/cover;
@@ -202,6 +203,7 @@ margin: 20px 0;
     display: flex;
     flex-wrap: wrap;
 }
+
 #age-groups div {
 background-color: rgba(0, 0, 0, .6);
 padding: 15px;
@@ -292,6 +294,7 @@ border: 2px solid #ffffff
 
  .copyright {
     background-color: #B58B6Eff;
+    color: #ffffff;
     padding: 10px;
     display: flex;
     justify-content: left;
