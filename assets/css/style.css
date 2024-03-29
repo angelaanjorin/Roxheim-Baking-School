@@ -145,6 +145,8 @@ main {
     width: 75%;
     min-height: 200px;
     padding-left: 10px;
+    display: flex;  
+    align-items: center;
 }
 /*middle Section of Home with intro*/
 #middle {
