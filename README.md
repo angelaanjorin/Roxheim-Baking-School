@@ -42,6 +42,7 @@ There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) 
 * The default font set by the style.sheet is Georgia, 'Times New Roman', Times, serif used for the test.
 
 ### Imagery
+
 * 3 background images, one as the first section of the Home Page, the other used in the class section of the Home Page and the last used on the Signup Page.
 * 1 image for the intro section of the Home Page.
 * 1 image for the thank you Page.
@@ -62,9 +63,11 @@ There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) 
 [Live Homepage Here](https://angelaanjorin.github.io/Roxheim-Baking-School/index.html)
 
 ### Navigation Menu
+
 * In the header on the right hand side users can find the navigation menu. It is fully responsive on all devices. The Navigation Menu has the links to the different pages of the site.
 
 #### Mobile
+
 ![Navigation Menu Closed](./assets/images/READMEimages/navimobleclosed.png)
 * The Navigation Menu is closed and represented by a burger sign on mobile devices. 
 
@@ -72,13 +75,14 @@ There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) 
 * When the burger icon is toggled on the mobile devices it fully opens with the links to the other pages.
 
 #### Tablet
+
 ![Navigation Menu on Tablets](./assets/images/READMEimages/Navitablet.png)
 
 *The Navigation Menu shows as a horizontal list on the right hand side of the Header on Tablets.
 
 ### Welcoming Christmas Baking Picture
 
-![Welcoming Christmas Section](./assets/images/READMEimages/xamssection.png)
+![Welcoming Christmas Section](./assets/images/READMEimages/xmassection.png)
 
 * A nice warm welcoming picture of children baking christmas cookies should have the effect of attracting the user and retaining thier interest. An inviting text accompanies the image.
 
@@ -87,16 +91,11 @@ There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) 
 ![Introduction Section](./assets/images/READMEimages/introtablet.png)
 * This section should give the user some information about the Roxheim Bakery School and what benefits they should expect when they join a baking class. It is responsive on the different devices.
 
-#### Mobile
-#### Tablet
-#### Desktop
 ### Class Section
 
 ![Class section](./assets/images/READMEimages/class576px.png)
 * The aim of the section is to provide the user with the information about the different classes with a link to refer them to the signup Page.
-#### Mobile
-#### Tablet
-#### Desktop
+
 ### Footer Section
 
 ![Footer](./assets/images/READMEimages/footer.png)
@@ -109,6 +108,7 @@ This section gives the links to all the social network sites for the school, to 
 * In this section the users are given the opportunity to signup for a course.
 
 #### Larger Desktops
+
  ![Signup Page with Hover Features](./assets/images/READMEimages/signupdesktop.png)
  * Here  on larger devices the hover feature is used to engage the user more and encourage them to signup for a class.
 [Live Feature Here](https://angelaanjorin.github.io/Roxheim-Baking-School/signup.html)
@@ -125,22 +125,28 @@ This section gives the links to all the social network sites for the school, to 
 [Live Gallery Page](https://angelaanjorin.github.io/Roxheim-Baking-School/gallery.html)
 
 ## Future Features
+
 ### Customer Review Section
+
 * If there is a Review Section with parents telling how thier children enjoyed the baking classes, this would help the user to gain confidence to signup for a class.
 
 ### Shop Section
+
 * A shop can be used on many levels to generate extra money for the school, selling all kinds of things from recipies, baking utensils, baking aprons and gloves and hats for the children, recipe books etc. Selling digital courses for children who can´t come to the school either because they live too far or the days and times of the provides classes are just not convenient for the user. Older children and even adults can also benefit from the digital courses. 
 
 ### About me Section
+
 * More infromation about the teacher of the Roxheim Bakery School would help the users to know more about the person behind the school building more trust.
 
 ## Technolgies Used
+
 ### Languages Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5).
 * [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
 ### Frameworks - Libraries - Programs Used
+
 * [Google Fonts:](https://fonts.google.com/)
    * Google fonts were used to import the 'Oswald' fonts throughout the style.css.
 * [Font Awesome:](https://fontawesome.com/)
@@ -149,8 +155,8 @@ This section gives the links to all the social network sites for the school, to 
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub:](https://github.com/)
     * GitHub is used to store the project's code after being pushed from Git.
-* [Pexels:](https://www.pexels.com/search/baking%20children/)
-    *All the free images used on the site were gotten from Pexels.
+* [Visual Studio Code](https://code.visualstudio.com/)
+    *Visual studio code was used to write my code.
 * [Freeconvert:](https://www.freeconvert.com/de/webp-converter)
 * [Convertio:](https://convertio.co/)
     * These sites were used to modify and resize all images on this website.
@@ -159,5 +165,72 @@ This section gives the links to all the social network sites for the school, to 
 * [Coolors:](https://coolors.co/image-picker)
     * Coolors was used to generate a color pallete for the site based on the welcoming first image on the Home Page.
 
-
 ## Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+* [W3C Markup Validator](https://validator.w3.org/#validate_by_input) 
+* [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
+The testing was done using the Google Chrome Browser. Testing was also done using Firefox on desktop.
+
+![Lighthouse Results:](./assets/images/READMEimages/Lighthouse-Report-Viewer5.png)
+
+  ## Functionality
+* All links have been hovered and clicked to ensure accessibility.
+* Pages all load correctly on all device screen sizes.
+* All social media links work correctly and open on a new tab.
+* All images load on each page as intended.
+* All the buttons and links on the different pages are working correctly and bring the users to the function that they were built for.
+* The button on the Signup Page and the sections to be filled out with the requested information change the border color when hovered by the user. They are working without issues.
+* The filled out sections of the form change color when completed by the user correctly.
+
+
+   ## Bugs
+
+* I was unable to reduce the largest contenful paint element in <section id=xmas> and eliminate the render-blocking resources from Font Awesome as suggested by Google Lighthouse [Lighthouse Results here:](https://angelaanjorin.github.io/Roxheim-Baking-School/index.html)
+
+   ## Website Development Issues
+
+* At the initial stages of my project, I was using [codeanywhere ](https://codeanywhere.com/) with some difficulties until i was advised to use Visual Studio Code. 
+* I changed some of the fonts and colors towards the end of the project to improve the user experience.
+
+## Deployment of This Project
+
+The website development was created in the "main" branch. This branch was deployed using GitHub Pages.
+
+* This site was deployed by completing the following steps:
+
+1. Open [GitHub](https://github.com/).
+2. Click on the project to be deployed.
+3. Navigate to the "Settings".
+4. Navigate down to the "GitHub Pages".
+5. Click on "Check it out here!".
+6. Select the "main" branch and select "Save".
+7. The link to the live website was ready on the top.
+
+## Credits
+
+### Information Sources/Resources
+
+* [W3Schools](https://www.w3schools.com/).
+
+* [Code Institute](https://stackoverflow.com/).
+  
+
+## Content
+
+* All the text content is original. I got inspiration from the following the Love run Project and following Projects 1 from Code Institute
+    1. [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
+    2. [Flawlesscooking by Martiless](https://martiless.github.io/flawlesscooking/)
+    3. [Travel World by Pedro Cristo](https://pedrocristo.github.io/portfolio_project_1/index.html)
+
+### Images
+
+* [Pexels:](https://www.pexels.com/search/baking%20children/)
+    *All the free images used on the site were gotten from Pexels.
+  
+## Special Thanks
+
+ * Special thanks to my partner and alumni of Code institute Eric Jones for his assistance throughout this project.
