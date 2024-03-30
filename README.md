@@ -10,6 +10,46 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
 
 ![Website Homepage](./assets/images/READMEimages/Am-I-Responsive-2.png)
 
+## README Table of Content
+
+- [Roxheim Bakery School - Website](#roxheim-bakery-school-website)
+- [Introduction](#introduction)
+- [User Experience - UX](#user-experience-ux)
+   * [User Stories](#user-stories)
+   * [Design](#design)
+      + [Website Structure](#website-structure)
+      + [Color Scheme](#color-scheme)
+      + [Typography](#typography)
+      + [Imagery](#imagery)
+      + [Interactive Links](#interactive-links)
+   * [Features](#features)
+      + [Home Page ](#home-page)
+      + [Navigation Menu](#navigation-menu)
+         - [Mobile](#mobile)
+         - [Tablet](#tablet)
+      + [Welcoming Christmas Baking Picture](#welcoming-christmas-baking-picture)
+      + [Introduction Section](#introduction-section)
+      + [Class Section](#class-section)
+      + [Footer Section](#footer-section)
+      + [Signup Page](#signup-page)
+         - [Larger Desktops](#larger-desktops)
+      + [Thankyou Page](#thankyou-page)
+      + [Gallery Page](#gallery-page)
+   * [Future Features](#future-features)
+      + [Customer Review Section](#customer-review-section)
+      + [Shop Section](#shop-section)
+      + [About me Section](#about-me-section)
+   * [Technolgies Used](#technolgies-used)
+      + [Languages Used](#languages-used)
+      + [Frameworks - Libraries - Programs Used](#frameworks-libraries-programs-used)
+   * [Testing](#testing)
+   * [Deployment of This Project](#deployment-of-this-project)
+   * [Credits](#credits)
+      + [Information Sources/Resources](#information-sourcesresources)
+   * [Content](#content)
+      + [Images](#images)
+   * [Special Thanks](#special-thanks)
+   
 # User Experience - UX
 
 ## User Stories
