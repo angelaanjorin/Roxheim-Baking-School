@@ -10,12 +10,14 @@
     --sinopia: rgba(212, 63, 23, 1);
     --raisin-black: rgba(31, 24, 31, 1);
     --drab-dark-brown: rgba(70, 59, 36, 1);
+    --black: rgba(0, 0, 0, 1);
 
     /* CSS HEX*/
     --brown-derby:  #5b4435;
     --sinopia: #D43F17ff;
     --raisin-black: #1F181Fff;
     --drab-dark-brown: #463B24ff;
+    --black:#000000
 
     /*font color*/
     --white: #ffffff;
