@@ -57,5 +57,26 @@ https://convertio.co/
 
 ## Features
 
+### Home Page 
 
+
+
+### Navigation Menu
+#### Mobile
+#### Tablet
+#### Desktop
+### Welcoming Christmas Baking Picture
+### Introduction Section
+#### Mobile
+#### Tablet
+#### Desktop
+### Class Section
+#### Mobile
+#### Tablet
+#### Desktop
+### Footer Section
+### Signup Page
+#### Larger Desktops
+### Thankyou Page
+### Gallery Page
 
