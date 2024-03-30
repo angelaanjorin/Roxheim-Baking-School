@@ -125,14 +125,39 @@ This section gives the links to all the social network sites for the school, to 
 [Live Gallery Page](https://angelaanjorin.github.io/Roxheim-Baking-School/gallery.html)
 
 ## Future Features
-
 ### Customer Review Section
+* If there is a Review Section with parents telling how thier children enjoyed the baking classes, this would help the user to gain confidence to signup for a class.
+
 ### Shop Section
+* A shop can be used on many levels to generate extra money for the school, selling all kinds of things from recipies, baking utensils, baking aprons and gloves and hats for the children, recipe books etc. Selling digital courses for children who can´t come to the school either because they live too far or the days and times of the provides classes are just not convenient for the user. Older children and even adults can also benefit from the digital courses. 
+
 ### About me Section
+* More infromation about the teacher of the Roxheim Bakery School would help the users to know more about the person behind the school building more trust.
 
 ## Technolgies Used
 ### Languages Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5).
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
+
 ### Frameworks - Libraries - Programs Used
-https://www.freeconvert.com/de/webp-converter
-https://convertio.co/
+* [Google Fonts:](https://fonts.google.com/)
+   * Google fonts were used to import the 'Oswald' fonts throughout the style.css.
+* [Font Awesome:](https://fontawesome.com/)
+    * Icons for the burger Navigation Menu, the cake with candles, happy child and for the social networks were acquired from Font Awesome.
+* [Git](https://git-scm.com/)
+    * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+* [GitHub:](https://github.com/)
+    * GitHub is used to store the project's code after being pushed from Git.
+* [Pexels:](https://www.pexels.com/search/baking%20children/)
+    *All the free images used on the site were gotten from Pexels.
+* [Freeconvert:](https://www.freeconvert.com/de/webp-converter)
+* [Convertio:](https://convertio.co/)
+    * These sites were used to modify and resize all images on this website.
+* [Canva](https://www.canva.com/design/DAGA0N2eK2Y/s47LWlWuWGWSnfLPZoMWpQ/edit)
+    * Canva was used to create the Thankyou image.
+* [Coolors:](https://coolors.co/image-picker)
+    * Coolors was used to generate a color pallete for the site based on the welcoming first image on the Home Page.
+
+
 ## Testing
