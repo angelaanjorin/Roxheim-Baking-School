@@ -8,7 +8,7 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
 
 [Live Website Here](https://angelaanjorin.github.io/Roxheim-Baking-School/)
 
-![Website Homepage](assets/images/Am-I-Responsive-.png)
+![Website Homepage](assets/images/Am-I-Responsive-2.png)
 
 # User Experience - UX
 
