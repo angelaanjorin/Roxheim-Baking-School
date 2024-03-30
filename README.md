@@ -8,7 +8,7 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
 
 [Live Website Here](https://angelaanjorin.github.io/Roxheim-Baking-School/)
 
-![Website Homepage](assets/images/Am-I-Responsive-2.png)
+![Website Homepage](./assets/images/READMEimages/Am-I-Responsive-2.png)
 
 # User Experience - UX
 
@@ -33,8 +33,8 @@ The Roxheim Bakery School website is a four page site: Home Page, Signup Page, T
 
 ### Color Scheme
 
-![Home Page](./assets/images/Create-a-Palette-Coolors1.png)
-There are four main colors used: (1) White (#ffffff), (2) Beaver (#B58B6Eff), (3) drab-dark-brown (#463B24ff), (4) raisin-black (#1F181Fff). The last color used as a default font color. The background is white and sinopia (#D43F17ff) is used as a highlighter on very large screen devices for the hover effect on the signup page.
+![Home Page](./assets/images/READMEimages/Create-a-Palette-Coolors1.png)
+There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) (3)sinopi (#D43F17ff) (4) drab-dark-brown (#463B24ff). The last color is used as a default font color. The background is white and sinopi (#D43F17ff) is used as a highlighter on very large screen devices for the hover effect on the signup page.
 
 ### Typography
 
@@ -46,9 +46,7 @@ There are four main colors used: (1) White (#ffffff), (2) Beaver (#B58B6Eff), (3
 * 1 image for the intro section of the Home Page.
 * 1 image for the thank you Page.
 * 12 images for the Gallery Page.
-* Note: all images were converted to the webp files using two free converting websites; https://www.freeconvert.com/de/webp-converter and
-
-https://convertio.co/
+* Note: all images were converted to the webp files.
 
 ### Interactive Links
 
@@ -59,24 +57,82 @@ https://convertio.co/
 
 ### Home Page 
 
-
+![Home Page](./assets/images/READMEimages/Homepage.png)
+* The Home Page is the first page of the site that users get in contact with. It has an appealing big image of children´s hands baking cookies for christmas. The aim is for the user to have an emotional connection to baking at christmas time which should ret
+[Live Homepage Here](https://angelaanjorin.github.io/Roxheim-Baking-School/index.html)
 
 ### Navigation Menu
+* In the header on the right hand side users can find the navigation menu. It is fully responsive on all devices. The Navigation Menu has the links to the different pages of the site.
+
 #### Mobile
+![Navigation Menu Closed](./assets/images/READMEimages/navimobleclosed.png)
+* The Navigation Menu is closed and represented by a burger sign on mobile devices. 
+
+![Navigation Menu Opened](./assets/images/READMEimages/navimobileopened.png)
+* When the burger icon is toggled on the mobile devices it fully opens with the links to the other pages.
+
 #### Tablet
-#### Desktop
+![Navigation Menu on Tablets](./assets/images/READMEimages/Navitablet.png)
+
+*The Navigation Menu shows as a horizontal list on the right hand side of the Header on Tablets.
+
 ### Welcoming Christmas Baking Picture
+
+![Welcoming Christmas Section](./assets/images/READMEimages/xamssection.png)
+
+* A nice warm welcoming picture of children baking christmas cookies should have the effect of attracting the user and retaining thier interest. An inviting text accompanies the image.
+
 ### Introduction Section
+
+![Introduction Section](./assets/images/READMEimages/introtablet.png)
+* This section should give the user some information about the Roxheim Bakery School and what benefits they should expect when they join a baking class. It is responsive on the different devices.
+
 #### Mobile
 #### Tablet
 #### Desktop
 ### Class Section
+
+![Class section](./assets/images/READMEimages/class576px.png)
+* The aim of the section is to provide the user with the information about the different classes with a link to refer them to the signup Page.
 #### Mobile
 #### Tablet
 #### Desktop
 ### Footer Section
+
+![Footer](./assets/images/READMEimages/footer.png)
+This section gives the links to all the social network sites for the school, to give the user more information about the school.
+
 ### Signup Page
+
+![Signup Page](./assets/images/READMEimages/signuppage.png)
+
+* In this section the users are given the opportunity to signup for a course.
+
 #### Larger Desktops
+ ![Signup Page with Hover Features](./assets/images/READMEimages/signupdesktop.png)
+ * Here  on larger devices the hover feature is used to engage the user more and encourage them to signup for a class.
+[Live Feature Here](https://angelaanjorin.github.io/Roxheim-Baking-School/signup.html)
+
 ### Thankyou Page
+
+![Thankyou Page](./assets/images/READMEimages/thankyou.png)
+* This page pops up when the user has correctly signed up for a course. It is a thank you message with the added information that they will receive a confirmation email shortly.
+
 ### Gallery Page
 
+![Gallery Page](./assets/images/READMEimages/Gallerysection.png)
+* This section gives the user a gallery of images about the activites at the Roxheim Bakery School, showing the children having fun baking. It show cases some of the baked products and the children eating them and enjoying themselves. It is a visual form of a review section. 
+[Live Gallery Page](https://angelaanjorin.github.io/Roxheim-Baking-School/gallery.html)
+
+## Future Features
+
+### Customer Review Section
+### Shop Section
+### About me Section
+
+## Technolgies Used
+### Languages Used
+### Frameworks - Libraries - Programs Used
+https://www.freeconvert.com/de/webp-converter
+https://convertio.co/
+## Testing
