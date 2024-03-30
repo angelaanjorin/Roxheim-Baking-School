@@ -49,7 +49,7 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
    * [Content](#content)
       + [Images](#images)
    * [Special Thanks](#special-thanks)
-   
+
 # User Experience - UX
 
 ## User Stories
@@ -195,6 +195,8 @@ This section gives the links to all the social network sites for the school, to 
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 * [GitHub:](https://github.com/)
     * GitHub is used to store the project's code after being pushed from Git.
+* [GitHuv](https://derlin.github.io/bitdowntoc/)
+    * This link was used to create the table of content for the README file.
 * [Visual Studio Code](https://code.visualstudio.com/)
     *Visual studio code was used to write my code.
 * [Freeconvert:](https://www.freeconvert.com/de/webp-converter)
