@@ -10,11 +10,24 @@ This Front End website is for a fictional baking school in a small village in Ro
 
 ![Website Homepage](./assets/images/READMEimages/Am-I-Responsive-2.png)
 
-## README Table of Content
-
 - [Roxheim Bakery School - Website](#roxheim-bakery-school-website)
 - [Introduction](#introduction)
+- [Site Goals:](#site-goals)
 - [User Experience - UX](#user-experience-ux)
+         - [New User:  ](#new-user)
+         - [Returning User:](#returning-user)
+   * [Development Planes:](#development-planes)
+   * [Strategy](#strategy)
+      + [Roles: ](#roles)
+      + [Demographic:](#demographic)
+      + [Psychographic:](#psychographic)
+         - [Lifestyle:](#lifestyle)
+         - [Values:](#values)
+         - [The website needs to allow users to:  ](#the-website-needs-to-allow-users-to)
+         - [The website needs to allow the teacher at the school to:  ](#the-website-needs-to-allow-the-teacher-at-the-school-to)
+   * [Scope:  ](#scope)
+      + [Content Requirements:](#content-requirements)
+      + [Functionality Requirements:](#functionality-requirements)
    * [User Stories](#user-stories)
    * [Design](#design)
       + [Website Structure](#website-structure)
