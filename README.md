@@ -4,7 +4,7 @@
 
 Project 1 for Code Institute Full-stack development program: HTML/CSS Essentials
 
-This Front End website is for a baking school in a small village in Roxheim. With a business online presence the small business hopes to acquire a larger audience and clientel. The website is interactive and user-friendly allowing the user to interact with the school through a contact form and social media channels.
+This Front End website is for a fictional baking school in a small village in Roxheim, Germany. With a business online presence, the small business hopes to acquire a larger audience and clientel. The website is interactive and user-friendly allowing the user to interact with the school through a contact form and social media channels.
 
 [Live Website Here](https://angelaanjorin.github.io/Roxheim-Baking-School/)
 
@@ -50,7 +50,73 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
       + [Images](#images)
    * [Special Thanks](#special-thanks)
 
+# Site Goals:
+
+The goals for this site are as follows:
+* To provide information to users about bakery classes for children in Roxheim, Germany.
+* Gain more demographic exposure.
+* Gain more students to the school.
+* Invite enquiries from parents with children interested in baking.
+
+
 # User Experience - UX
+
+#### New User:  
+* As a new user, I am looking to find information regarding baking classes for children.  
+* As a new user, I am looking to contact the school.   
+* As a new user, I would like to see pictures of past students of the school.  
+
+#### Returning User:
+* As a returning user, I would like to see if there are any new class times added.
+* As a returning user, I would like to see if any new class photos have been added.
+
+## Development Planes:
+To create a website that is comprehensive and informative for a user, as a developer you need to look at all aspects of the website and how someone who visits your website will use it. You have to consider all the user stories that have been outlined in the above sections.  
+
+## Strategy
+The strategy principal looks at user needs, as well product/service objectives. This websites target audience was broken down into three categories:
+
+### Roles: 
+* New User
+* Existing User  
+
+### Demographic:
+* Parents of young children
+* Grandparents of young children
+* Resident in Roxheim, Germany 
+
+### Psychographic:
+
+#### Lifestyle:
+* Enjoy eating delicious pastery  
+
+#### Values:
+* Teaching children life skills at a young age  
+
+#### The website needs to allow users to:  
+* View times of classes for their child's age group  
+* View information about the school 
+
+
+
+#### The website needs to allow the teacher at the school to:  
+* Receive signups from parents/grandparents/guardians   
+* Get contacted also through it´s social networks from site visitors through the various social network icons on the website  
+
+## Scope:  
+
+With the structure in place, it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
+### Content Requirements:
+1. The user will be looking for:
+      * Information on class times 
+      * Information on bakery school
+      * Techniques on how to make something they may not have done before
+### Functionality Requirements:
+1. The user will be able to:
+      * Navigate through the site to find the information they need
+      * Signup to the classes offered on the site.
+      * Get more information through the icon links to the social networks of the school.
+
 
 ## User Stories
 
@@ -68,13 +134,14 @@ This Front End website is for a baking school in a small village in Roxheim. Wit
 ## Design
 
 ### Website Structure
-
+The information above was then used to create a structure for the website. The Skeleton of the website was created on paper. 
 The Roxheim Bakery School website is a four page site: Home Page, Signup Page, Thank you Page and Gallery Page. The Home Page has five sections, (1) Header, (2) Xmas, (3) Intro, (4) Classes, (5) Footer with Social Networks links. The Home Page is linked to all the other pages through the Navigation Menu at the top right part of the header. The Home Page has also a link within the Class section to the Signup Page. The Signup Page and Gallery Page have also the same Navigation Menu and a link to the Home Page through the Logo.
 
 ### Color Scheme
 
 ![Home Page](./assets/images/READMEimages/Create-a-Palette-Coolors1.png)
-There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) (3)sinopi (#D43F17ff) (4) drab-dark-brown (#463B24ff). The last color is used as a default font color. The background is white and sinopi (#D43F17ff) is used as a highlighter on very large screen devices for the hover effect on the signup page.
+* The color scheme of the website was generated using [Coolors](https://coolors.co/) from the main picture on the Home Page. 
+* There are four main colors used: (1) White (#ffffff), (2) brown-derby (#5b4435) (3)sinopi (#D43F17ff) (4) drab-dark-brown (#463B24ff). The last color is used as a default font color. The background is white and sinopi (#D43F17ff) is used as a highlighter on very large screen devices for the hover effect on the signup page.
 
 ### Typography
 
