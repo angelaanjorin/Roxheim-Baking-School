@@ -332,7 +332,7 @@ The website development was created in the "main" branch. This branch was deploy
 
 * All the text content is original. I got inspiration from the following the Love run Project and following Projects 1 from Code Institute
     1. [Love Running](https://code-institute-org.github.io/love-running-2.0/index.html)
-    2. [Flawlesscooking by Martiless](https://martiless.github.io/flawlesscooking/)
+    2. [Flawlesscooking by Martina Martin](https://martiless.github.io/flawlesscooking/)
     3. [Travel World by Pedro Cristo](https://pedrocristo.github.io/portfolio_project_1/index.html)
 
 ### Images
