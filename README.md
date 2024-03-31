@@ -74,6 +74,8 @@ The goals for this site are as follows:
 
 # User Experience - UX
 
+## User Stories
+
 #### New User:  
 * As a new user, I am looking to find information regarding baking classes for children.  
 * As a new user, I am looking to contact the school.   
@@ -110,39 +112,25 @@ The strategy principal looks at user needs, as well product/service objectives. 
 * View times of classes for their child's age group  
 * View information about the school 
 
-
-
 #### The website needs to allow the teacher at the school to:  
 * Receive signups from parents/grandparents/guardians   
 * Get contacted also through it´s social networks from site visitors through the various social network icons on the website  
 
 ## Scope:  
 
-With the structure in place, it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories. 
+With the structure in place, it was then time to move onto the scope plane. This was all about developing website requirements based on the goals set out in the strategy plane. These requirements are broken down into two categories.
+
 ### Content Requirements:
 1. The user will be looking for:
       * Information on class times 
-      * Information on bakery school
+      * Information on the bakery school
       * Techniques on how to make something they may not have done before
+
 ### Functionality Requirements:
 1. The user will be able to:
       * Navigate through the site to find the information they need
       * Signup to the classes offered on the site.
       * Get more information through the icon links to the social networks of the school.
-
-
-## User Stories
-
-* As a front end website creator, I want to:
-
-1. Build a website that is attractive visually to the user, to make them explore the website and potentially become clients of the business.
-2. Build a user friendly website to make it easy for the user to navigate.
-
-* As a new visitor, I want to:
-
-1. Understand the main purpose of the website.
-2. Be able to easily navigate the site to get all relevant information that i need.
-3. Be able to easily contact the business and signup for bakery classes.
 
 ## Design
 
