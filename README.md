@@ -200,7 +200,7 @@ The Roxheim Bakery School website is a four page site: Home Page, Signup Page, T
 
 ### Class Section
 
-![Class section](./assets/images/READMEimages/class576px.png)
+![Class section](./assets/images/READMEimages/Classes576px.png)
 * The aim of the section is to provide the user with the information about the different classes with a link to refer them to the signup Page.
 
 ### Footer Section
@@ -342,4 +342,4 @@ The website development was created in the "main" branch. This branch was deploy
   
 ## Special Thanks
 
- * Special thanks to my partner and alumni of Code institute Eric Jones for his assistance throughout this project.
+ * Special thanks to my partner and alumni of Code Institute Eric Jones for his assistance throughout this project.
