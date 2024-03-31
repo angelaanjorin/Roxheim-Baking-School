@@ -14,6 +14,7 @@ This Front End website is for a fictional baking school in a small village in Ro
 - [Introduction](#introduction)
 - [Site Goals:](#site-goals)
 - [User Experience - UX](#user-experience-ux)
+   * [User Stories](#user-stories)
          - [New User:  ](#new-user)
          - [Returning User:](#returning-user)
    * [Development Planes:](#development-planes)
@@ -28,7 +29,6 @@ This Front End website is for a fictional baking school in a small village in Ro
    * [Scope:  ](#scope)
       + [Content Requirements:](#content-requirements)
       + [Functionality Requirements:](#functionality-requirements)
-   * [User Stories](#user-stories)
    * [Design](#design)
       + [Website Structure](#website-structure)
       + [Color Scheme](#color-scheme)
@@ -70,7 +70,6 @@ The goals for this site are as follows:
 * Gain more demographic exposure.
 * Gain more students to the school.
 * Invite enquiries from parents with children interested in baking.
-
 
 # User Experience - UX
 
