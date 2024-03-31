@@ -3,7 +3,6 @@
 
 /*General Styles*/
 
-
 :root {
      /*SCSS RGB*/ 
     --brown-derby: rgba(90, 68, 53, 1);
@@ -335,10 +334,6 @@ main {
 @media screen and (min-width: 768px) {
 
     /*Header*/
-    /*#header-section {
-        position: absolute;
-        height: 75px;
-    }*/
 
     #logo {
         font-size: 180%;
@@ -374,10 +369,6 @@ main {
     }
 
     /*Main Content*/
-    /*main {
-        /*push main content down below larger header
-        margin-top: 75px;
-    }*/
 
     /*Homepage xmas section*/
     #cover-text {
@@ -436,11 +427,7 @@ main {
 @media screen and (min-width: 992px) {
 
     /*Header*/
-   /* #header-section {
-        position: absolute;
-        height: 90px;
-    }*/
-
+  
     #logo {
         font-size: 230%;
     }
